@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-   devise_for :users do
-     match 'users/sign_out' => "devise/sessions#destroy"
-   end
+   devise_for :users #do
+#      match 'users/sign_out' => "devise/sessions#des"
+#   end
  # get 'welcome/index'
   authenticated :user do  
     root 'notes#index', as: "authenitcated_root"

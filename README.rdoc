@@ -1,5 +1,4 @@
-tutorial https://mackenziechild.me/12-in-12/11/
-PlACE HOLDER - 20:04
+
 == README
 
 This README would normally document whatever steps are necessary to get the

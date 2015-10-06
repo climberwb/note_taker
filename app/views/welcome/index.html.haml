@@ -1,1 +1,26 @@
-%h1 Welcome Controller  within index route !
+#banner
+    .banner_content
+        %h1 Notenote
+        %p your online notebook never forgets an idea again
+        %button= link_to 'Sign up', new_user_registration_path
+
+#testimonial
+    .wrapper
+        %p.quote the greatest notebook application. Period. 
+        %p.name - Warren Kushner
+    #callouts
+        .callout_inner
+            .callout
+                %h2 Notes
+                %p Viral Echo sdfsf dsf sadf sdaf asdf sdf sdf asdf asdf dsf asdfa sdf s asdfsdf
+                %h2 Notes
+                %p Vdsajkkadk sksdjkk daklsdajkkj daklsdakjkld asdkj daklsdkjlsda ldsakljdsaklja 
+                %h2 Notes
+                %p Vdsajkkadk sksdjkk daklsdajkkj daklsdakjkld asdkj daklsdkjlsda ldsakljdsaklja
+#bottom_cta
+    .wrapper
+        %h2 For realz guys
+        %p I want you to sign up!
+        %button= link_to "click Me", new_user_registration_path
+    %footer
+        %p &copy; Warren
